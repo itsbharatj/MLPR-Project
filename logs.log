@@ -1,0 +1,146 @@
+2024-03-16 01:14:39,848:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 01:14:39,848:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 01:14:39,848:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 01:14:39,848:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 02:31:17,968:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 02:31:17,968:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 02:31:17,968:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 02:31:17,968:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 04:59:55,520:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 04:59:55,521:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 04:59:55,521:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 04:59:55,521:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 05:26:02,917:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 05:26:02,917:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 05:26:02,917:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 05:26:02,917:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-03-16 05:35:36,395:WARNING:/var/folders/d7/z23sxpv11lv4f4ly5v7wgs580000gn/T/ipykernel_8694/1222553479.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iq_train[col].fillna(weekly_means[col], inplace=True)
+
+2024-03-16 05:39:24,199:WARNING:/var/folders/d7/z23sxpv11lv4f4ly5v7wgs580000gn/T/ipykernel_8694/3236238861.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  sj_train[col] = sj_train[col].interpolate(method='linear')
+
+2024-03-16 05:50:06,392:WARNING:/var/folders/d7/z23sxpv11lv4f4ly5v7wgs580000gn/T/ipykernel_8694/1222553479.py:5: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iq_train[col].fillna(weekly_means[col], inplace=True)
+
+2024-03-16 06:15:36,821:INFO:PyCaret RegressionExperiment
+2024-03-16 06:15:36,821:INFO:Logging name: reg-default-name
+2024-03-16 06:15:36,821:INFO:ML Usecase: MLUsecase.REGRESSION
+2024-03-16 06:15:36,821:INFO:version 3.3.0
+2024-03-16 06:15:36,821:INFO:Initializing setup()
+2024-03-16 06:15:36,821:INFO:self.USI: bed4
+2024-03-16 06:15:36,821:INFO:self._variable_keys: {'exp_name_log', 'target_param', 'y_train', 'html_param', '_ml_usecase', '_available_plots', 'y', 'seed', 'data', 'X_train', 'gpu_n_jobs_param', 'fold_groups_param', 'pipeline', 'log_plots_param', 'exp_id', 'memory', 'fold_shuffle_param', 'X', 'X_test', 'y_test', 'logging_param', 'USI', 'idx', 'transform_target_param', 'gpu_param', 'fold_generator', 'n_jobs_param'}
+2024-03-16 06:15:36,821:INFO:Checking environment
+2024-03-16 06:15:36,821:INFO:python_version: 3.9.6
+2024-03-16 06:15:36,822:INFO:python_build: ('default', 'Feb  3 2024 15:58:27')
+2024-03-16 06:15:36,822:INFO:machine: arm64
+2024-03-16 06:15:36,822:INFO:platform: macOS-14.4-arm64-arm-64bit
+2024-03-16 06:15:36,822:INFO:Memory: svmem(total=8589934592, available=1701838848, percent=80.2, used=3000107008, free=51888128, active=1667219456, inactive=1647624192, wired=1332887552)
+2024-03-16 06:15:36,822:INFO:Physical Core: 8
+2024-03-16 06:15:36,822:INFO:Logical Core: 8
+2024-03-16 06:15:36,822:INFO:Checking libraries
+2024-03-16 06:15:36,822:INFO:System:
+2024-03-16 06:15:36,822:INFO:    python: 3.9.6 (default, Feb  3 2024, 15:58:27)  [Clang 15.0.0 (clang-1500.3.9.4)]
+2024-03-16 06:15:36,822:INFO:executable: /Library/Developer/CommandLineTools/usr/bin/python3
+2024-03-16 06:15:36,822:INFO:   machine: macOS-14.4-arm64-arm-64bit
+2024-03-16 06:15:36,823:INFO:PyCaret required dependencies:
+2024-03-16 06:15:36,981:INFO:                 pip: 21.2.4
+2024-03-16 06:15:36,981:INFO:          setuptools: 58.0.4
+2024-03-16 06:15:36,981:INFO:             pycaret: 3.3.0
+2024-03-16 06:15:36,981:INFO:             IPython: 8.18.1
+2024-03-16 06:15:36,981:INFO:          ipywidgets: 8.1.2
+2024-03-16 06:15:36,981:INFO:                tqdm: 4.66.2
+2024-03-16 06:15:36,981:INFO:               numpy: 1.26.4
+2024-03-16 06:15:36,981:INFO:              pandas: 2.1.4
+2024-03-16 06:15:36,981:INFO:              jinja2: 3.1.3
+2024-03-16 06:15:36,981:INFO:               scipy: 1.11.4
+2024-03-16 06:15:36,981:INFO:              joblib: 1.3.2
+2024-03-16 06:15:36,981:INFO:             sklearn: 1.4.1.post1
+2024-03-16 06:15:36,981:INFO:                pyod: 1.1.3
+2024-03-16 06:15:36,981:INFO:            imblearn: 0.12.0
+2024-03-16 06:15:36,981:INFO:   category_encoders: 2.6.3
+2024-03-16 06:15:36,981:INFO:            lightgbm: 4.3.0
+2024-03-16 06:15:36,982:INFO:               numba: 0.59.0
+2024-03-16 06:15:36,982:INFO:            requests: 2.31.0
+2024-03-16 06:15:36,982:INFO:          matplotlib: 3.7.5
+2024-03-16 06:15:36,982:INFO:          scikitplot: 0.3.7
+2024-03-16 06:15:36,982:INFO:         yellowbrick: 1.5
+2024-03-16 06:15:36,982:INFO:              plotly: 5.20.0
+2024-03-16 06:15:36,982:INFO:    plotly-resampler: Not installed
+2024-03-16 06:15:36,982:INFO:             kaleido: 0.2.1
+2024-03-16 06:15:36,982:INFO:           schemdraw: 0.15
+2024-03-16 06:15:36,982:INFO:         statsmodels: 0.14.1
+2024-03-16 06:15:36,982:INFO:              sktime: 0.27.0
+2024-03-16 06:15:36,982:INFO:               tbats: 1.1.3
+2024-03-16 06:15:36,982:INFO:            pmdarima: 2.0.4
+2024-03-16 06:15:36,982:INFO:              psutil: 5.9.8
+2024-03-16 06:15:36,982:INFO:          markupsafe: 2.1.5
+2024-03-16 06:15:36,982:INFO:             pickle5: Not installed
+2024-03-16 06:15:36,982:INFO:         cloudpickle: 3.0.0
+2024-03-16 06:15:36,982:INFO:         deprecation: 2.1.0
+2024-03-16 06:15:36,982:INFO:              xxhash: 3.4.1
+2024-03-16 06:15:36,982:INFO:           wurlitzer: 3.0.3
+2024-03-16 06:15:36,982:INFO:PyCaret optional dependencies:
+2024-03-16 06:15:37,019:INFO:                shap: Not installed
+2024-03-16 06:15:37,019:INFO:           interpret: Not installed
+2024-03-16 06:15:37,020:INFO:                umap: Not installed
+2024-03-16 06:15:37,020:INFO:     ydata_profiling: Not installed
+2024-03-16 06:15:37,020:INFO:  explainerdashboard: Not installed
+2024-03-16 06:15:37,020:INFO:             autoviz: Not installed
+2024-03-16 06:15:37,020:INFO:           fairlearn: Not installed
+2024-03-16 06:15:37,020:INFO:          deepchecks: Not installed
+2024-03-16 06:15:37,020:INFO:             xgboost: 2.0.3
+2024-03-16 06:15:37,020:INFO:            catboost: Not installed
+2024-03-16 06:15:37,020:INFO:              kmodes: Not installed
+2024-03-16 06:15:37,020:INFO:             mlxtend: Not installed
+2024-03-16 06:15:37,020:INFO:       statsforecast: Not installed
+2024-03-16 06:15:37,020:INFO:        tune_sklearn: Not installed
+2024-03-16 06:15:37,020:INFO:                 ray: Not installed
+2024-03-16 06:15:37,020:INFO:            hyperopt: Not installed
+2024-03-16 06:15:37,020:INFO:              optuna: Not installed
+2024-03-16 06:15:37,020:INFO:               skopt: Not installed
+2024-03-16 06:15:37,020:INFO:              mlflow: Not installed
+2024-03-16 06:15:37,020:INFO:              gradio: Not installed
+2024-03-16 06:15:37,020:INFO:             fastapi: Not installed
+2024-03-16 06:15:37,020:INFO:             uvicorn: Not installed
+2024-03-16 06:15:37,020:INFO:              m2cgen: Not installed
+2024-03-16 06:15:37,020:INFO:           evidently: Not installed
+2024-03-16 06:15:37,020:INFO:               fugue: Not installed
+2024-03-16 06:15:37,020:INFO:           streamlit: Not installed
+2024-03-16 06:15:37,020:INFO:             prophet: Not installed
+2024-03-16 06:15:37,020:INFO:None
+2024-03-16 06:15:37,020:INFO:Set up data.
+2024-04-15 21:33:19,066:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-15 21:33:19,066:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-15 21:33:19,066:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-04-15 21:33:19,066:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
